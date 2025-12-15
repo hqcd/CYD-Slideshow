@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CYD Photo Frame Installer</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; }
+        esp-web-install-button {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Install CYD Photo Frame</h1>
+    <p>Connect your CYD to your computer via USB.</p>
+    <p>Click the button below and select the USB Serial port.</p>
+    
+    <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+
+    <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+    
+    <p><i>Note: Use Google Chrome or Microsoft Edge.</i></p>
+</body>
+</html>
